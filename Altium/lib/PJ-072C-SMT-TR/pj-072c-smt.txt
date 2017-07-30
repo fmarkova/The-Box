@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-11022016-096688";"";
+"REFERENCE";"PJ-072C-SMT";"";
+"TraceParts.PartTitle";"PJ-072C-SMT - 1.0 mm Center Pin, 2.0 A, Right Angle, Surface Mount (SMT), Shielded, Dc Power Jack Connector, RoHS Compliant";"";
+"TraceParts.InstanceId";"10-11022016-096688BJLO8ZEG9TW1TMF305K3HBMJP";"";
+"DESIGN";"1.0 mm Center Pin, 2.0 A, Right Angle, Surface Mount (SMT), Shielded, Dc Power Jack Connector";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"CUI";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"CUI:10-11022016-096688";"";

@@ -1,0 +1,36 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=IoT Lock\IoT Lock.PrjPcb
+[Project2]
+ProjectPath=Light interrupter\Light interrupter.PrjPcb
+[Project3]
+ProjectPath=lib\CC3220\CC3220.LibPkg
+[Project4]
+ProjectPath=lib\TCA8418\TCA8418.LibPkg
+[Project5]
+ProjectPath=lib\DEA202450BT-1294C1-H\DEA202450BT-1294C1-H.LibPkg
+[Project6]
+ProjectPath=lib\AH316M245001-T\AH316M245001-T.LibPkg
+[Project7]
+ProjectPath=lib\MX25R3235FM1IL\MX25R3235FM1IL0.LibPkg
+[Project8]
+ProjectPath=lib\NVR1P02T1G\NVR1P02T1G.LibPkg
+[Project9]
+ProjectPath=lib\LQM2HPN2R2MG0L\LQM2HPN2R2MG0L.LibPkg
+[Project10]
+ProjectPath=lib\CBC2518T100M\CBC2518T100M.LibPkg
+[Project11]
+ProjectPath=lib\ABS07-32.768KHZ-9-T\ABS07-32.768KHZ-9-T.LibPkg
+[Project12]
+ProjectPath=lib\FA-20H 40.0000MF10Z-K3\FA-20H 40.0000MF10Z-K3.LibPkg
+[Project13]
+ProjectPath=lib\BQ25060\BQ25060.LibPkg
+[Project14]
+ProjectPath=lib\TC33X-2-103E\TC33X-2-103E.LibPkg
+[Project15]
+ProjectPath=lib\PJ-072C-SMT-TR\PJ-072C-SMT-TR.LibPkg
+[Project16]
+ProjectPath=lib\OPB840L51\OPB840L51.LibPkg
+[Project17]
+ProjectPath=lib\B3B-PH-K-S\B3B-PH-K-S.LibPkg
