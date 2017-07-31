@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=P5 Old Footprint=HDR1X3 New Footprint=B3B-PH-K-S
-Change Component Comment : Designator=P5 Old Comment=Header 3 New Comment=B3B-PH-K-S
-Change component parameters: Designator = "P5"; Footprint = "B3B-PH-K-S"; UniqueID = "\PCTFYJBF\ECXOIDRH"
-Change component parameters. Clean all parameters for all variants
