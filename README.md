@@ -28,9 +28,9 @@ This project is still under development!
 
 TODO: 
 -------
-*Add documentation
-*Add wiki pages
-*Firmware
-*Controller programming and build instructions
+* Add documentation
+* Add wiki pages
+* Firmware
+* Controller programming and build instructions
 
 [render]: https://raw.githubusercontent.com/fmarkova/The-Box/master/Doc/Images/Device-render.png
