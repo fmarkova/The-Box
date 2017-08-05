@@ -1,0 +1,2865 @@
+{
+	"boardId": "undefined",
+	"deviceId": "CC3220SF",
+	"partId": "ID_503",
+	"packageId": "ID_6",
+	"deviceRequirements": {
+		"used": true,
+		"solution": {
+			"nameDecoratorText": "",
+			"assignedToName": "",
+			"errorText": "",
+			"warningText": "",
+			"errorDetailsText": [],
+			"warningDetailsText": [],
+			"errorCount": 0,
+			"warningCount": 0,
+			"nonSolverErrorCount": 0,
+			"gpioPinsUsed": 18,
+			"gpioPinsTotal": 27
+		},
+		"nonSolverSolution": {
+			"nameDecoratorText": "",
+			"assignedToName": "",
+			"errorText": "",
+			"warningText": "",
+			"errorDetailsText": [],
+			"warningDetailsText": [],
+			"errorCount": 0,
+			"warningCount": 0,
+			"nonSolverErrorCount": 0
+		},
+		"version": "2.0.0",
+		"devicePinMap": {
+			"1": {
+				"nameDecoratorText": "1",
+				"assignedToName": "I2C_SCL",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "I2C_Keypad",
+				"requirementId": "MyI2C1",
+				"interfacePin": "SCL"
+			},
+			"2": {
+				"nameDecoratorText": "2",
+				"assignedToName": "I2C_SDA",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "I2C_Keypad",
+				"requirementId": "MyI2C1",
+				"interfacePin": "SDA"
+			},
+			"3": {
+				"nameDecoratorText": "3",
+				"assignedToName": "GPIO12",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Keypad_Interrupt",
+				"requirementId": "MyGPIO4",
+				"interfacePin": "GP"
+			},
+			"4": {
+				"nameDecoratorText": "4",
+				"assignedToName": "GPIO13",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Motor_Control",
+				"requirementId": "MyGPIO3",
+				"interfacePin": "GP"
+			},
+			"5": {
+				"nameDecoratorText": "5",
+				"assignedToName": "GPIO14",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Motor_Control",
+				"requirementId": "MyGPIO3",
+				"interfacePin": "GP"
+			},
+			"6": {
+				"nameDecoratorText": "6",
+				"assignedToName": "GPIO15",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Motor_Control",
+				"requirementId": "MyGPIO3",
+				"interfacePin": "GP"
+			},
+			"7": {
+				"nameDecoratorText": "7",
+				"assignedToName": "GPIO16",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Motor_Control",
+				"requirementId": "MyGPIO3",
+				"interfacePin": "GP"
+			},
+			"15": {
+				"nameDecoratorText": "15",
+				"assignedToName": "GPIO22",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Lock_sensors",
+				"requirementId": "MyGPIO2",
+				"interfacePin": "GP"
+			},
+			"18": {
+				"nameDecoratorText": "18",
+				"assignedToName": "GPIO28",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Lock_sensors",
+				"requirementId": "MyGPIO2",
+				"interfacePin": "GP"
+			},
+			"50": {
+				"nameDecoratorText": "50",
+				"assignedToName": "GPIO00",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Charger_control",
+				"requirementId": "MyGPIO1",
+				"interfacePin": "GP"
+			},
+			"53": {
+				"nameDecoratorText": "53",
+				"assignedToName": "GPIO30",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "Charger_control",
+				"requirementId": "MyGPIO1",
+				"interfacePin": "GP"
+			},
+			"58": {
+				"nameDecoratorText": "58",
+				"assignedToName": "GPIO03",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Control",
+				"requirementId": "MyGPIO6",
+				"interfacePin": "GP"
+			},
+			"59": {
+				"nameDecoratorText": "59",
+				"assignedToName": "GPIO04",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Control",
+				"requirementId": "MyGPIO6",
+				"interfacePin": "GP"
+			},
+			"60": {
+				"nameDecoratorText": "60",
+				"assignedToName": "GPIO05",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Data",
+				"requirementId": "MyGPIO5",
+				"interfacePin": "GP"
+			},
+			"61": {
+				"nameDecoratorText": "61",
+				"assignedToName": "GPIO06",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Data",
+				"requirementId": "MyGPIO5",
+				"interfacePin": "GP"
+			},
+			"62": {
+				"nameDecoratorText": "62",
+				"assignedToName": "GPIO07",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Data",
+				"requirementId": "MyGPIO5",
+				"interfacePin": "GP"
+			},
+			"63": {
+				"nameDecoratorText": "63",
+				"assignedToName": "GPIO08",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Data",
+				"requirementId": "MyGPIO5",
+				"interfacePin": "GP"
+			},
+			"64": {
+				"nameDecoratorText": "64",
+				"assignedToName": "GPIO09",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "LCD_Backlight",
+				"requirementId": "MyGPIO7",
+				"interfacePin": "GP"
+			}
+		},
+		"powerDomainSettings": {},
+		"powerDomainSettingsEnabled": false,
+		"isLoad": false,
+		"isBoard": false,
+		"groupRequirements": {
+			"Camera": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "Camera",
+				"id": "Camera"
+			},
+			"ADC": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "ADC",
+				"id": "ADC"
+			},
+			"I2C": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0,
+					"gpioPinsUsed": 2
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 2,
+				"requirements": [
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0,
+							"gpioPinsUsed": 2
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"selectedInstance": "Any",
+						"selectedVoltage": "Any",
+						"selectedUseCase": "I2C_0",
+						"pinRequirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "I2C_SCL",
+									"assignedToName": "1",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "1",
+								"removable": false,
+								"type": "Single",
+								"name": "SCL",
+								"interfacePinName": "SCL",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "I2C_SDA",
+									"assignedToName": "2",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "2",
+								"removable": false,
+								"type": "Single",
+								"name": "SDA",
+								"interfacePinName": "SDA",
+								"configurables": {}
+							}
+						],
+						"peripheralSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "I2C0",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"voltageSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"isNameValid": true,
+						"assignedToName": "",
+						"id": "MyI2C1",
+						"name": "I2C_Keypad",
+						"interfaceName": "I2C",
+						"pinConfigurablesHeader": {},
+						"configurables": {},
+						"requirementNameErrorMessage": ""
+					}
+				],
+				"name": "I2C",
+				"id": "I2C"
+			},
+			"TimerCP": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "TimerCP",
+				"id": "TimerCP"
+			},
+			"GPIO": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0,
+					"gpioPinsUsed": 16
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 8,
+				"requirements": [
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 3,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO30",
+											"assignedToName": "53",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "53",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "input",
+												"displayName": "Input",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_UP_STD",
+												"displayName": "Pull up",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO30",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO1_intenal_1",
+								"name": "MyGPIO1_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "Charger_control",
+								"parentReqID": "MyGPIO1",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO00",
+											"assignedToName": "50",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "50",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "DRIVE_HIGH",
+												"displayName": "Drive 1",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO0",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO1_intenal_2",
+								"name": "MyGPIO1_intenal_2",
+								"interfaceName": "GPIO",
+								"parentReqName": "Charger_control",
+								"parentReqID": "MyGPIO1",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "Charger_control",
+						"id": "MyGPIO1",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "input",
+								"displayName": "Input",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 3,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO22",
+											"assignedToName": "15",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "15",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "input",
+												"displayName": "Input",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "NO_PULL_HIZ",
+												"displayName": "No pull",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO22",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO2_intenal_1",
+								"name": "MyGPIO2_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "Lock_sensors",
+								"parentReqID": "MyGPIO2",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO28",
+											"assignedToName": "18",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "18",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "input",
+												"displayName": "Input",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "NO_PULL_HIZ",
+												"displayName": "No pull",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO28",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO2_intenal_2",
+								"name": "MyGPIO2_intenal_2",
+								"interfaceName": "GPIO",
+								"parentReqName": "Lock_sensors",
+								"parentReqID": "MyGPIO2",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "Lock_sensors",
+						"id": "MyGPIO2",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "input",
+								"displayName": "Input",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 5,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO13",
+											"assignedToName": "4",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "4",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO13",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO3_intenal_1",
+								"name": "MyGPIO3_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "Motor_Control",
+								"parentReqID": "MyGPIO3",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO14",
+											"assignedToName": "5",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "5",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO14",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO3_intenal_2",
+								"name": "MyGPIO3_intenal_2",
+								"interfaceName": "GPIO",
+								"parentReqName": "Motor_Control",
+								"parentReqID": "MyGPIO3",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO15",
+											"assignedToName": "6",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "6",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO15",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO3_intenal_3",
+								"name": "MyGPIO3_intenal_3",
+								"interfaceName": "GPIO",
+								"parentReqName": "Motor_Control",
+								"parentReqID": "MyGPIO3",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO16",
+											"assignedToName": "7",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "7",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO16",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO3_intenal_4",
+								"name": "MyGPIO3_intenal_4",
+								"interfaceName": "GPIO",
+								"parentReqName": "Motor_Control",
+								"parentReqID": "MyGPIO3",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "Motor_Control",
+						"id": "MyGPIO3",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "output",
+								"displayName": "Output",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO12",
+											"assignedToName": "3",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "3",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "input",
+												"displayName": "Input",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_UP_STD",
+												"displayName": "Pull up",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO12",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO4_intenal_1",
+								"name": "MyGPIO4_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "Keypad_Interrupt",
+								"parentReqID": "MyGPIO4",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "Keypad_Interrupt",
+						"id": "MyGPIO4",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "input",
+								"displayName": "Input",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 5,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO08",
+											"assignedToName": "63",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "63",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO8",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO5_intenal_1",
+								"name": "MyGPIO5_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Data",
+								"parentReqID": "MyGPIO5",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO07",
+											"assignedToName": "62",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "62",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO7",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO5_intenal_2",
+								"name": "MyGPIO5_intenal_2",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Data",
+								"parentReqID": "MyGPIO5",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO06",
+											"assignedToName": "61",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "61",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO6",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO5_intenal_3",
+								"name": "MyGPIO5_intenal_3",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Data",
+								"parentReqID": "MyGPIO5",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO05",
+											"assignedToName": "60",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "60",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO5",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO5_intenal_4",
+								"name": "MyGPIO5_intenal_4",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Data",
+								"parentReqID": "MyGPIO5",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "LCD_Data",
+						"id": "MyGPIO5",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "output",
+								"displayName": "Output",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 3,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO03",
+											"assignedToName": "58",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "58",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO3",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO6_intenal_1",
+								"name": "MyGPIO6_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Control",
+								"parentReqID": "MyGPIO6",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO04",
+											"assignedToName": "59",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "59",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO4",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO6_intenal_2",
+								"name": "MyGPIO6_intenal_2",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Control",
+								"parentReqID": "MyGPIO6",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "LCD_Control",
+						"id": "MyGPIO6",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "output",
+								"displayName": "Output",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO_0",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO09",
+											"assignedToName": "64",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "64",
+										"removable": false,
+										"type": "Single",
+										"name": "GP",
+										"interfacePinName": "GP",
+										"configurables": {
+											"io": {
+												"name": "output",
+												"displayName": "Output",
+												"value": "N/A"
+											},
+											"parking": {
+												"name": "WEAK_PULL_DOWN_STD",
+												"displayName": "Pull down",
+												"value": "N/A"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO9",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO7_intenal_1",
+								"name": "MyGPIO7_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "LCD_Backlight",
+								"parentReqID": "MyGPIO7",
+								"pinConfigurablesHeader": {
+									"io": {
+										"name": "input",
+										"displayName": "Input",
+										"value": "N/A"
+									},
+									"parking": {
+										"name": "WEAK_PULL_DOWN_STD",
+										"displayName": "Pull down",
+										"value": "N/A"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "LCD_Backlight",
+						"id": "MyGPIO7",
+						"pinConfigurablesHeader": {
+							"io": {
+								"name": "output",
+								"displayName": "Output",
+								"value": "N/A"
+							},
+							"parking": {
+								"name": "WEAK_PULL_DOWN_STD",
+								"displayName": "Pull down",
+								"value": "N/A"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					}
+				],
+				"name": "GPIO",
+				"id": "GPIO"
+			},
+			"TimerPWM": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "TimerPWM",
+				"id": "TimerPWM"
+			},
+			"SPI": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "SPI",
+				"id": "SPI"
+			},
+			"UART": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "UART",
+				"id": "UART"
+			},
+			"SDHost": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "SDHost",
+				"id": "SDHost"
+			},
+			"McASP": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "McASP",
+				"id": "McASP"
+			}
+		}
+	},
+	"versions": {
+		"data": "2017072713",
+		"timestamp": "2017072713",
+		"tool": "4.0.1496 ",
+		"templates": "2017072713"
+	}
+}
